@@ -35,25 +35,63 @@ input.text {
 }
 
 
-.search {
-width: 300px; /* Ширина поля с кнопкой */
-/*border: 1px solid #000;  Параметры рамки */
-min-height: 20px; /* Минимальная высота */
+#search {
+  /* устанавливаем ширину формы,
+  ** равную ширине поля ввода (183 + 37 + 15)	*/
+  width: 235px;
+  height: 29px;
 }
 
-input[type="search"] {
-border: none; /* Убираем рамку */
-outline: none; /* Убираем свечение в Chrome и Safari */
--webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-width: 274px; /* Ширина поля */
-vertical-align: middle; /* Выравнивание по середине */
+/* делаем инпуты плавающими, чтобы убрать лишние отступы,
+** и отключаем бордюры */
+#search input {
+  float: left;
+  border: none;
 }
 
-input[type="submit"] {
-width: 40px; /* Ширина кнопки */
-height: 40px; /* Высота кнопки */
-border: none; /* Убираем рамку */
-background: url(search.jpg) ; /* Параметры фона */
+/* стили для поля ввода */
+#search .input {
+  width: 183px;
+  height: 28px;
+  /* внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+  padding: 0 37px 1px 15px;
+  background: #EEE url(https://lh4.googleusercontent.com/-EllJnywnmlY/UAaKJYSYYMI/AAAAAAAABUU/IaRo-yUcRmc/s235/search.png) no-repeat;
+  color: #555;
+  font: 13px/28px Tahoma, Arial, sans-serif;
+  outline: none;
+}
+
+/* приходится использовать хак для FireFox
+** для вертикального выравнивания текста,
+** т.к. у него свои особые представления об этом */
+@-moz-document url-prefix() {
+  #search .input {
+    height: 27px;
+    padding-bottom: 2px;
+  }
+}
+
+/* меняем оформление поля ввода при фокусе */
+#search .input:focus {
+  background-color: #E8E8E8;
+  background-position: 0 -29px;
+  color: #333;
+}
+
+/* оформляем кнопку отправки */
+#search .submit {
+  width: 37px;
+  height: 29px;
+  cursor: pointer;
+
+  /* смещаем кнопку влево на собственную ширину,
+  ** чтобы она оказалась над полем ввода */
+  margin-left: -37px;
+
+  /* по-нормальному, здесь достаточно было бы указать background: none;
+  ** но приходится указывать фон из-за бага в IE */
+  background: url(search.jpg);
 }
 }
 </style>
