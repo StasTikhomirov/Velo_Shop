@@ -11,7 +11,7 @@
 <style>
 body{
 	background-image:url(background.jpg);
-	font-family:Cambria;
+	font-family:Myriad Pro;
 	color:rgba(206,0,3,1.00);
 }
 
@@ -38,7 +38,7 @@ input.text {
 </style>
 
 <table  border="0" align="right" width="100%">
-<tr><img src="ikon.jpg" align="left" width="176"></td>
+<tr><img src="ikon.jpg" align="left" width="125"></td>
 <font align="right" size="25" >Интернет-магазин Велотоваров</font></td>
 </tr>
 
@@ -46,21 +46,26 @@ input.text {
 <i><b><p align="left"><font align="center" size="25" >BikeGoods</font></p></b></i>
 </tr>
 <tr></tr><tr></tr>
+</table>
+
+<table align="right" width="100%">
 
 <tr>
 <td></td>
-<td bgcolor="#016C14" align="center" width="150"><font  size="6"><a href="Autorisation.html">Вход</a></td>
-<td bgcolor="#016C14" align="center" width="150"><font size="6" ><a href="Registration.html">Регестрация</a></td>
-<td></td>
-<td></td>
+<td bordercolor="#FF0004" bgcolor="#FF8E00" align="center" width="100"><font  size="6"><a href="Autorisation.html">Вход</a></td>
+<td bgcolor="#016C14" align="center" width="150"><font size="6" ><a href="Registration.html">Регистрация</a></td>
+<td width="800"></td>
 </tr>
-
 </table>
 
 
 <table border="0" align="right" width="100%">
-<tr height="20"></tr><tr><td width="30"></td><td >
-<input align="left" id="quer" type=text class=text name="query" value="" placeholder="Поиск по каталогу" size="60" height="50"></td></tr>
+<tr height="20"></tr><tr><td width="10"></td><td >
+<input align="left" id="quer" type=text class=text name="query" value="" placeholder="Поиск по каталогу" size="60" height="50">
+
+<input align="left" height="50" type="submit" class="subm" name="log" value="Найти">
+</td>
+</tr>
 </table>
 
 <table border="0" align="right" width="100%">
