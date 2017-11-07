@@ -104,11 +104,8 @@ background: url(search.jpg) ; /* Параметры фона */
 <br>
 <br>
 
-<div class="search">
-     <input type="search" name="q">
-     <input type="submit" value="">
-   </div>
-
+ <input type="search" name="" placeholder="поиск" class="input" />
+  <input type="submit" name="" value="" class="submit" />
 
 <br />
 <br />
