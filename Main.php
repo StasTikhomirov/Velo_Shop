@@ -148,14 +148,6 @@ vertical-align: middle; /* Выравнивание по середине */
 
  <input type="search" name="" placeholder="поиск" class="input" />
   <input type="submit" name="" value="" class="submit" />
-=======
-<div class="search">
-     <input type="search" name="q">
-     <input type="submit" value="">
-
-   </div>
-
->>>>>>> master
 
 <br />
 <br />
