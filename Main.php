@@ -36,6 +36,7 @@ input.text {
 
 
 .search {
+color-----
 width: 300px; /* Ширина поля с кнопкой */
 /*border: 1px solid #000;  Параметры рамки */
 min-height: 20px; /* Минимальная высота */
@@ -107,6 +108,7 @@ background: url(search.jpg) ; /* Параметры фона */
 <div class="search">
      <input type="search" name="q">
      <input type="submit" value="">
+
    </div>
 
 
