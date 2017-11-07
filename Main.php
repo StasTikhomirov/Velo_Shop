@@ -34,6 +34,27 @@ input.text {
     
 }
 
+
+.search {
+width: 300px; /* Ширина поля с кнопкой */
+/*border: 1px solid #000;  Параметры рамки */
+min-height: 20px; /* Минимальная высота */
+}
+
+input[type="search"] {
+border: none; /* Убираем рамку */
+outline: none; /* Убираем свечение в Chrome и Safari */
+-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+width: 274px; /* Ширина поля */
+vertical-align: middle; /* Выравнивание по середине */
+}
+
+input[type="submit"] {
+width: 40px; /* Ширина кнопки */
+height: 30px; /* Высота кнопки */
+border: none; /* Убираем рамку */
+background: url(search.jpg) ; /* Параметры фона */
+}
 }
 </style>
 
@@ -62,8 +83,8 @@ input.text {
 <table border="0" align="right" width="100%">
 <tr height="20"></tr><tr><td width="10"></td><td >
 <input align="left" id="quer" type=text class=text name="query" value="" placeholder="Поиск по каталогу" size="60" height="50">
+<input type="submit" value="">
 
-<input align="left" height="50" type="submit" class="subm" name="log" value="Найти">
 </td>
 </tr>
 </table>
@@ -80,8 +101,13 @@ input.text {
 
 
 </table>
+<br>
+<br>
 
-
+<div class="search">
+     <input type="search" name="q">
+     <input type="submit" value="">
+   </div>
 
 
 
