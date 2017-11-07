@@ -42,11 +42,14 @@ input.text {
   height: 29px;
 }
 
-/* делаем инпуты плавающими, чтобы убрать лишние отступы,
-** и отключаем бордюры */
-#search input {
-  float: left;
-  border: none;
+}
+
+input[type="search"] {
+border: none; /* Убираем рамку */
+outline: none; /* Убираем свечение в Chrome и Safari */
+-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+width: 274px; /* Ширина поля */
+vertical-align: middle; /* Выравнивание по середине */
 }
 
 /* стили для поля ввода */
@@ -142,8 +145,17 @@ input.text {
 <br>
 <br>
 
+
  <input type="search" name="" placeholder="поиск" class="input" />
   <input type="submit" name="" value="" class="submit" />
+=======
+<div class="search">
+     <input type="search" name="q">
+     <input type="submit" value="">
+
+   </div>
+
+>>>>>>> master
 
 <br />
 <br />
