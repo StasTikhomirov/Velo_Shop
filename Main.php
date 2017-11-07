@@ -51,7 +51,7 @@ vertical-align: middle; /* Выравнивание по середине */
 
 input[type="submit"] {
 width: 40px; /* Ширина кнопки */
-height: 30px; /* Высота кнопки */
+height: 40px; /* Высота кнопки */
 border: none; /* Убираем рамку */
 background: url(search.jpg) ; /* Параметры фона */
 }
@@ -80,8 +80,8 @@ background: url(search.jpg) ; /* Параметры фона */
 </table>
 
 
-<table border="0" align="right" width="100%">
-<tr height="20"></tr><tr><td width="10"></td><td >
+<table border="0"  align="right" width="100%">
+<tr height="30"></tr><tr><td width="10"></td><td >
 <input align="left" id="quer" type=text class=text name="query" value="" placeholder="Поиск по каталогу" size="60" height="50">
 <input type="submit" value="">
 
@@ -110,6 +110,8 @@ background: url(search.jpg) ; /* Параметры фона */
    </div>
 
 
+<br />
+<br />
 
   
 
