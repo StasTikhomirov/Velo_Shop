@@ -10,14 +10,15 @@
 <body>
 <style>
 body{
-	background-image:url(background.jpg);
-	font-family:Myriad Pro;
-	color:rgba(206,0,3,1.00);
+	background-image:url(Background-full_cuclist.png);
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
 }
 
 
 A {
     text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color:rgba(255,255,255,1.00);
 } 
 
 A:hover { 
@@ -34,6 +35,11 @@ input.text {
     
 }
 
+#quer{
+	background-color:transparent;
+	border-color:rgba(131,131,131,1.00);
+}
+
 
 #search {
   /* устанавливаем ширину формы,
@@ -42,14 +48,11 @@ input.text {
   height: 29px;
 }
 
-}
-
-input[type="search"] {
-border: none; /* Убираем рамку */
-outline: none; /* Убираем свечение в Chrome и Safari */
--webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-width: 274px; /* Ширина поля */
-vertical-align: middle; /* Выравнивание по середине */
+/* делаем инпуты плавающими, чтобы убрать лишние отступы,
+** и отключаем бордюры */
+#search input {
+  float: left;
+  border: none;
 }
 
 /* стили для поля ввода */
@@ -100,26 +103,29 @@ vertical-align: middle; /* Выравнивание по середине */
 </style>
 
 <table  border="0" align="right" width="100%">
-<tr><img src="ikon.jpg" align="left" width="125"></td>
-<font align="right" size="25" >Интернет-магазин Велотоваров</font></td>
-</tr>
+<tr><td></td>
+<td><img src="ikon.png" align="left" width="125"></td>
 
-<tr>
-<i><b><p align="left"><font align="center" size="25" >BikeGoods</font></p></b></i>
-</tr>
-<tr></tr><tr></tr>
-</table>
-
-<table align="right" width="100%">
-
-<tr>
 <td></td>
-<td bordercolor="#FF0004" bgcolor="#FF8E00" align="center" width="100"><font  size="6"><a href="Autorisation.html">Вход</a></td>
-<td bgcolor="#016C14" align="center" width="150"><font size="6" ><a href="Registration.html">Регистрация</a></td>
-<td width="800"></td>
+<td align="right" width="100" id=""><font  size="6"><a href="Autorisation.html">Вход</a></td>
+<td width="5" height="15"><font color="#FFFFFF">/</font></td>
+<td align="right" width="150"><font size="6" ><a href="Registration.html">Регистрация</a></td>
+</tr>
+
+<tr>
+<td></td><td width="900"></td><td width="200"></td><td align="right" width="500"><a href="Basket.html">Корзина</a></td>
 </tr>
 </table>
 
+
+<table border="0" align="right" width="100%">
+<tr>
+<td align="center" width="200"><font size="15"><a href="Catalog.html">Каталог</a></td>
+<td align="center" width="200"><font size="15"><a href="Orders.html">???</a></td>
+<td align="center" width="200"><font size="15"><a href="Contacts.html">Контакты</a></td>
+<td></td>
+</tr>
+</table>
 
 <table border="0"  align="right" width="100%">
 <tr height="30"></tr><tr><td width="10"></td><td >
@@ -130,21 +136,9 @@ vertical-align: middle; /* Выравнивание по середине */
 </tr>
 </table>
 
-<table border="0" align="right" width="100%">
-<tr>
-<td align="center" width="200"><font size="15"><a href="Catalog.html">Каталог</a></td>
-<td align="center" width="200"><font size="15"><a href="Orders.html">Заказы</a></td>
-<td align="center" width="200"><font size="15"><a href="Contacts.html">Контакты</a></td>
-<td></td>
-</tr>
 
-
-
-
-</table>
 <br>
 <br>
-
 
  <input type="search" name="" placeholder="поиск" class="input" />
   <input type="submit" name="" value="" class="submit" />
