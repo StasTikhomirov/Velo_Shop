@@ -1,6 +1,7 @@
 body{
-	background-image:url(Background-full_cuclist.png);
+	background-image:url(images/Background-full_cuclist.png);
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(255,255,255,1.00);
 }
 
 header{
@@ -21,6 +22,9 @@ header{
 	position:absolute;right:100px;top:70px;
 }
 
+#title{
+	position:absolute;right:250px;top:170px;
+}
 #menu
 {
 	font-size:24px;
@@ -35,6 +39,8 @@ header{
 {
 	position:absolute;right:300px;top:20px;
 }
+
+
 
 
 A {
@@ -122,7 +128,6 @@ ul.menu > li:hover > ul.submenu {
 .Window {
  position: fixed;
  font-family: Arial, Helvetica, sans-serif;
- text-align:center;
  top: 0;
  right: 0;
  bottom: 0;
@@ -142,7 +147,7 @@ ul.menu > li:hover > ul.submenu {
 }
  
 .Window > div {
- width: 460px;
+ width: 300px;
  position: relative;
  margin: 10% auto;
  padding: 30px 10px 10px;
@@ -172,4 +177,10 @@ ul.menu > li:hover > ul.submenu {
  
 .close:hover { background: #990000; }
 
-s
+#registrate{
+	size:10px;
+	padding: .2em 1em;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+	border-color:rgba(255,255,255,1.00);
+	background-color:rgba(0,0,0,1.00);
+}
