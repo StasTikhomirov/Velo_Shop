@@ -8,7 +8,7 @@
 <body>
 
 <header>
-<div><img id="Logo" src="images/Shop_logo.png" ></div>
+<div><a href="Main.php"><img id="Logo" src="images/Shop_logo.png" ></a></div>
 
 <ul class="menu">
     <li><a href="Main.php">Главная</a>       
@@ -78,18 +78,13 @@
 					} // while
 				?>
                 
-            </table>  
-            <table><tr><td width="20px"></td></tr></table>
-                        
-            <div align="center">
-                <a href="re.php">Добавить</a>
-                <span>/</span>
-                <a href="re.php">Изменить</a>
-                <span>/</span>
-                <a href="re.php">Удалить</a>        
-            </div>
-        </div>
             
+            
+        </div>
+        
+            <div id="order" align="center">	
+            <input type="submit" class="submit" name="order"  value="Заказать">	
+            </div>
     
 </body>
 </html>

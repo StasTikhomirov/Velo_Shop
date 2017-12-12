@@ -10,7 +10,7 @@
 <body>
 
 <header>
-<div><img id="Logo" src="images/Shop_logo.png"></div>
+<div><a href="Main.php"><img id="Logo" src="images/Shop_logo.png" ></a></div>
 
 <ul class="menu">
     <li><a href="Main.php">Главная</a>       
