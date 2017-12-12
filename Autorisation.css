@@ -1,0 +1,147 @@
+body{
+	background-image:url(images/Background-full_cuclist.png);
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(255,255,255,1.00);
+}
+
+header{
+	font-size:18px;
+}
+
+#Logo{
+	position:fixed;left:30px;top:20px;
+	
+}
+
+#Sign{
+	position:absolute;right:100px;top:20px;
+	color:rgba(255,255,255,1.00);	
+}
+
+.Basket{
+	position:absolute;right:100px;top:70px;
+}
+
+#title{
+	position:absolute;right:250px;top:170px;
+}
+#menu
+{
+	font-size:24px;
+}
+
+.catalog
+{
+	position:absolute;left:400px;top:80px;
+}
+
+.contacts
+{
+	position:absolute;right:300px;top:20px;
+}
+
+
+
+
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color:rgba(255,255,255,1.00);
+} 
+
+A:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+} 
+
+p { text-indent: 200px; }
+
+input.text {
+    height: 25px; 
+	font-size:18px;    
+}
+
+#search_area{
+	position:fixed; left:400px; top:300px;height:25px;
+	background-color:transparent;	
+	border-style:none;	
+	border: 1px solid rgba(131,131,131,1.00);
+	color:rgba(255,255,255,1.00);
+	font-style:italic;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	position:fixed; left:400px; top:20px;height:25px;
+	font-size:18px;
+	background-color:transparent;	
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+	width: 150px;
+    top: 37px;
+    left: 0;
+    background-color: white;    
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;	
+}
+
+#form{
+	position: absolute;
+	top: 75px;
+	left:350px;
+}
+
+#table{
+	position: absolute;
+	top: 175px;
+	left:350px;
+	
+}
+
+#buttons{
+	position: absolute;
+	top: 340px;
+	left:350px;
+}
+
+
+
