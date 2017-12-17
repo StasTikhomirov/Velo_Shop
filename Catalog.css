@@ -83,13 +83,33 @@ ul.menu > li:hover > ul.submenu {
     display: block;	
 }
 
+
+#form{
+	position: absolute;
+	top: 75px;
+	left:350px;
+}
+
+
+#welc{
+	position:fixed; right:40px; height:25px;	
+	font-style:italic;
+	}
+
 #container{
 	position: absolute;
 	    top: 125px;
     }
 
-#order{
+
+#table{
 	position:relative;
-	top:300px;
+	left:0px;
+}
+
+#order{
+	position:fixed;
+	top:450px;
+	left:575px;
 	
 }
